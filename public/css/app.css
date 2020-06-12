@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+body nav {
+  background: grey;
+  min-width: 15vh;
+  padding-right: 3vh;
+}
+
+body nav ul {
+  list-style: none;
+}
+
+body nav ul a {
+  text-decoration: none;
+  color: purple;
+}
+
+body .header,
+body .footer {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  list-style: none;
+}
+
+body .header p,
+body .footer p {
+  margin: auto;
+  font-size: 25px;
+}
+
+body .header p a,
+body .footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+body .content {
+  min-height: 80vh;
+  display: flex;
+  background-color: white;
+}
+
+body .content p {
+  margin: auto;
+  font-size: 25px;
+  text-decoration: none;
+}
+
